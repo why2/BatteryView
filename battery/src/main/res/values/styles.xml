@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BatteryView">
+        <!--提示电量百分比-->
+        <attr name="remindLimitPercent" format="integer" />
+        <!--警示电量百分比-->
+        <attr name="warningLimitPercent" format="integer" />
+        <!--当前电量百分比-->
+        <attr name="currentPercent" format="integer" />
+        <!--正常电量颜色-->
+        <attr name="commonColor" format="color" />
+        <!--提示电量颜色-->
+        <attr name="remindColor" format="color" />
+        <!--警示电量颜色-->
+        <attr name="warningColor" format="color" />
+        <!--正常电量填充颜色-->
+        <attr name="commonFilterColor" format="color" />
+        <!--提示电量填充颜色-->
+        <attr name="remindFilterColor" format="color" />
+        <!--警示电量填充颜色-->
+        <attr name="warningFilterColor" format="color" />
+        <!--外边框电量颜色-->
+        <attr name="outBoundColor" format="color" />
+        <!--外边框底部颜色-->
+        <attr name="outBoundColor2" format="color" />
+        <!--贝塞尔电量填充颜色-->
+        <attr name="bezierFilterColor" format="color" />
+        <!--电池宽高-->
+        <attr name="widthAndHeight" format="dimension" />
+        <!--外边框圆环宽度-->
+        <attr name="boundWidth" format="dimension" />
+    </declare-styleable>
+</resources>
